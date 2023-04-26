@@ -3,3 +3,13 @@ this is github new file
 git remote add origin <url link of github>
 
 git remote -v
+
+git merge dev<branch name>
+
+after forking and copied the url
+git clone <url>
+if u want to commit ur changes to that other accounts git repository
+git remote add upstrem <url>
+
+git fetch --al --prune
+git reset --hard upstream/main

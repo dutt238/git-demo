@@ -1,0 +1,35 @@
+1.    login into git 
+            git config --global user.name "dt238"
+            global user.email "@gmail.com"
+
+2.    git init - initializes an empty GIT respository
+3.    git status - only after git init , inside git repository only 
+4.    to create a new branch - 1. git branch
+                            2. git checkout -b dev(new branch name)
+5.    switch to other branch git checkout master
+
+6.    adding a new file to git - used to stage untracked file
+                git add test.py
+            to add all 
+                    git add .
+
+7.    commit 
+            git commit -m "test.py added"
+
+8.    if a file is deleted in local and wanted it back
+    then if it is still untracked
+    then 
+        git restore <file name>
+
+9.    to remove something which is added earlier i.e unstage it or untrack it
+            git restore --staged new.py
+
+10.     to see the log 
+        git log
+
+11.     to get help
+            git help
+
+11.      to revert the changes or del file
+            git revert <hash num>
+(subham youtube channel)
